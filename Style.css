@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+}
+main {
+  margin: 20px;
+}
+h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+ul {
+  background-color: pink;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+a {
+  color: black;
+  text-decoration: none;
+  float: left;
+  padding: 10px;
+}
+a:hover {
+  background-color: rgb(241, 110, 132);
+}
+a.active {
+  background-color: rgb(232, 44, 75);
+}
